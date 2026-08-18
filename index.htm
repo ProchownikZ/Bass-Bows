@@ -12,39 +12,40 @@
     <div class="container">
         <!-- Header -->
         <header class="header">
-            <img src="Publication2.jpg" alt="Prochownik Double Bass Bows Logo" class="logo">
+            <img src="Publication2.jpg" alt="Prochownik Double Bass Bows Logo" class="logo" loading="lazy" decoding="async">
             <h1>Double Bass Bows for Professionals</h1>
+            <button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Toggle navigation">☰</button>
         </header>
 
         <!-- Language Navigation -->
-        <nav class="nav-section">
+        <nav id="primary-navigation" class="nav-section" role="navigation" aria-label="Language and site navigation">
             <div class="nav-item">
                 <a href="english.htm" title="English">
-                    <img src="uk.gif" alt="English Flag">
+                    <img src="uk.gif" alt="English Flag" loading="lazy" decoding="async">
                 </a>
                 <a href="english.htm">English</a>
             </div>
             <div class="nav-item">
                 <a href="Spanish.htm" title="Español">
-                    <img src="esp.gif" alt="Spanish Flag">
+                    <img src="esp.gif" alt="Spanish Flag" loading="lazy" decoding="async">
                 </a>
                 <a href="Spanish.htm">Español</a>
             </div>
             <div class="nav-item">
                 <a href="German.htm" title="Deutsch">
-                    <img src="German.gif" alt="German Flag">
+                    <img src="German.gif" alt="German Flag" loading="lazy" decoding="async">
                 </a>
                 <a href="German.htm">Deutsch</a>
             </div>
             <div class="nav-item">
                 <a href="French.htm" title="Français">
-                    <img src="fra.gif" alt="French Flag">
+                    <img src="fra.gif" alt="French Flag" loading="lazy" decoding="async">
                 </a>
                 <a href="French.htm">Français</a>
             </div>
             <div class="nav-item">
                 <a href="Polish.htm" title="Polski">
-                    <img src="pol.gif" alt="Polish Flag">
+                    <img src="pol.gif" alt="Polish Flag" loading="lazy" decoding="async">
                 </a>
                 <a href="Polish.htm">Polski</a>
             </div>
@@ -57,7 +58,7 @@
                 <div class="flex-row">
                     <div class="flex-col">
                         <div class="profile-box">
-                            <img src="Zdzich2009.jpg" alt="Zdzislaw Prochownik Portrait">
+                            <img src="Zdzich2009.jpg" alt="Zdzislaw Prochownik Portrait" loading="lazy" decoding="async" class="profile-image">
                             <h2>Zdzislaw Prochownik</h2>
                             <p><strong>Professional quality double bass bows since 1983</strong></p>
                         </div>
@@ -132,7 +133,7 @@
 
             <!-- Featured Image Section -->
             <section class="content-section text-center">
-                <img src="Z25.jpg" alt="Featured Bow Example" class="content-image" style="max-width: 400px;">
+                <img src="Z25.jpg" alt="Featured Bow Example" class="content-image" style="max-width: 400px;" loading="lazy" decoding="async">
             </section>
 
             <!-- Links Section -->
@@ -168,7 +169,7 @@
                 <h2>Special Features</h2>
                 
                 <div class="highlight mb-2">
-                    <span class="new-tag"><img src="NEW.GIF" alt="NEW"></span>
+                    <span class="new-tag"><img src="NEW.GIF" alt="NEW" loading="lazy" decoding="async"></span>
                     <strong>Massaranduba and IPE Bows</strong> - Now available! One of my South American friends showed me a very good double bass bow made from Purpleheart wood.
                 </div>
 
@@ -278,5 +279,6 @@
             <p>Professional Double Bass Bows since 1983</p>
         </footer>
     </div>
+    <script src="scripts/nav.js" defer></script>
 </body>
 </html>
